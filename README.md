@@ -1,3 +1,7 @@
+> [!WARNING]
+> ## 🚧 早期测试阶段
+> **更新会很频繁，很多 Bug 还在修复，功能还在完善。**
+
 > [!CAUTION]
 > ## 🚧 早期测试注意事项 · 安装前必读
 >
@@ -34,6 +38,16 @@
 </div>
 
 ---
+
+## 📸 游戏画面 · Screenshots
+
+![SDV-HD2D 游戏画面预览 1](images/preview-1.png)
+
+| | |
+|:---:|:---:|
+| ![SDV-HD2D 游戏画面预览 2](images/preview-2.png) | ![SDV-HD2D 游戏画面预览 3](images/preview-3.png) |
+| ![SDV-HD2D 游戏画面预览 4](images/preview-4.png) | ![SDV-HD2D 游戏画面预览 5](images/preview-5.png) |
+| ![SDV-HD2D 游戏画面预览 6](images/preview-6.png) | ![SDV-HD2D 游戏画面预览 7](images/preview-7.png) |
 
 ## ✨ 当像素遇见光影
 
