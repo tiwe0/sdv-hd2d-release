@@ -1,19 +1,8 @@
 > [!WARNING]
-> ## 🚧 早期测试阶段
+> **🚧 早期测试阶段**
 > **更新会很频繁，很多 Bug 还在修复，功能还在完善。**
-
-> [!CAUTION]
-> ## 🚧 早期测试注意事项 · 安装前必读
 >
-> **SDV-HD2D 目前处于早期公测阶段（0.9.0），尚非稳定版本。可能出现画面异常、性能波动、交互偏移或模组冲突，请在了解以下限制后体验。**
->
-> - **🖥️ 平台与依赖**：目前仅在 Windows 上开发和测试；请使用星露谷物语 1.6.15、SMAPI ≥ 4.5.2、StardewUI ≥ 0.6.1。Linux、macOS、多人联机及分屏均未测试。
-> - **🧩 兼容性尚未充分验证**：其他光照或着色器模组可能冲突；自定义地图和自行绘制世界图像的模组可能出现细节缺失或错位。建议先在精简模组环境中测试。
-> - **🎮 部分场景仍待验证**：钓鱼、战斗伤害数字、心事件与节日尚未充分实测；少数地形可能异常，透视或旋转镜头下的悬崖边、斜坡可能存在鼠标偏移。
-> - **🛠️ 异常时先切回原版画面**：按 **F8** 关闭 3D 渲染进行对照；鼠标偏移时可按 **F9** 切回正交镜头。仍有问题时，退出游戏并暂时移除本模组。
-> - **🐛 反馈请附复现信息**：前往 [Issues](https://github.com/tiwe0/sdv-hd2d-release/issues)，附上模组版本、地点、游戏时间、截图及 [SMAPI 日志链接](https://smapi.io/log)；地形问题可按 **F11** 查看格子坐标。
->
-> **Early public beta — only Windows has been tested; Linux, macOS, multiplayer and split screen are untested.**
+> **🔓 所有功能稳定后会开源。**
 
 ---
 
@@ -21,8 +10,7 @@
 
 # 🌾 SDV-HD2D
 
-### 熟悉的像素世界，全新的光影舞台。
-**Stardew Valley · Pixel Art · A New Dimension**
+**熟悉的像素世界，全新的光影舞台。**
 
 把星露谷物语的像素美术，带进有光照、有阴影、有氛围的 3D 世界。
 
@@ -31,23 +19,25 @@
 [![Stars](https://img.shields.io/github/stars/tiwe0/sdv-hd2d-release?style=for-the-badge&logo=github&color=f2cf66)](https://github.com/tiwe0/sdv-hd2d-release)
 [![爱发电赞助](https://img.shields.io/badge/%E2%9A%A1%20%E7%88%B1%E5%8F%91%E7%94%B5-%E6%94%AF%E6%8C%81%E5%BC%80%E5%8F%91-946CE6?style=for-the-badge)](https://afdian.com/a/sdv-hd2d)
 
-**[📦 下载模组](https://github.com/tiwe0/sdv-hd2d-release/releases/latest) · [📖 安装指南](#installation-zh) · [🐛 问题反馈](https://github.com/tiwe0/sdv-hd2d-release/issues) · [⚡ 支持开发](https://afdian.com/a/sdv-hd2d)**
+**[📸 游戏画面](#screenshots) · [📦 下载模组](https://github.com/tiwe0/sdv-hd2d-release/releases/latest) · [📖 安装指南](#installation-zh) · [🐛 问题反馈](https://github.com/tiwe0/sdv-hd2d-release/issues) · [⚡ 支持开发](https://afdian.com/a/sdv-hd2d)**
 
-[简体中文](#guide-zh) / [English](#sdv-hd2d-installation-and-usage)
+**简体中文** · [English](README.en.md)
 
 </div>
 
 ---
 
-## 📸 游戏画面 · Screenshots
+<a id="screenshots"></a>
+
+## 📸 游戏画面
 
 ![SDV-HD2D 游戏画面预览 1](images/preview-1.png)
 
-| | |
-|:---:|:---:|
-| ![SDV-HD2D 游戏画面预览 2](images/preview-2.png) | ![SDV-HD2D 游戏画面预览 3](images/preview-3.png) |
-| ![SDV-HD2D 游戏画面预览 4](images/preview-4.png) | ![SDV-HD2D 游戏画面预览 5](images/preview-5.png) |
-| ![SDV-HD2D 游戏画面预览 6](images/preview-6.png) | ![SDV-HD2D 游戏画面预览 7](images/preview-7.png) |
+<table>
+<tr><td width="50%"><a href="images/preview-2.png"><img src="images/preview-2.png" alt="SDV-HD2D 游戏画面预览 2" width="100%" /></a></td><td width="50%"><a href="images/preview-3.png"><img src="images/preview-3.png" alt="SDV-HD2D 游戏画面预览 3" width="100%" /></a></td></tr>
+<tr><td width="50%"><a href="images/preview-4.png"><img src="images/preview-4.png" alt="SDV-HD2D 游戏画面预览 4" width="100%" /></a></td><td width="50%"><a href="images/preview-5.png"><img src="images/preview-5.png" alt="SDV-HD2D 游戏画面预览 5" width="100%" /></a></td></tr>
+<tr><td width="50%"><a href="images/preview-6.png"><img src="images/preview-6.png" alt="SDV-HD2D 游戏画面预览 6" width="100%" /></a></td><td width="50%"><a href="images/preview-7.png"><img src="images/preview-7.png" alt="SDV-HD2D 游戏画面预览 7" width="100%" /></a></td></tr>
+</table>
 
 ## ✨ 当像素遇见光影
 
@@ -63,31 +53,32 @@
 >
 > 🧪 **当前版本：0.9.0 公测版。** 已在 Windows 上测试；其他平台、联机与模组兼容性请查看下方说明。
 
-## 💜 为山谷的下一束光发电
-
-如果你喜欢 SDV-HD2D，欢迎通过爱发电支持后续开发与维护。感谢每一位体验、反馈和支持这个项目的玩家！
-
-<div align="center">
-
-<a href="https://afdian.com/a/sdv-hd2d"><img src="https://img.shields.io/badge/%E2%9A%A1%20%E7%88%B1%E5%8F%91%E7%94%B5-%E4%B8%BA%20SDV--HD2D%20%E5%8F%91%E7%94%B5-946CE6?style=for-the-badge" alt="⚡ 在爱发电支持 SDV-HD2D" /></a>
-
-**[afdian.com/a/sdv-hd2d](https://afdian.com/a/sdv-hd2d)**
-
-<sub>Enjoying the mod? Support its ongoing development on Afdian. Thank you! 💜</sub>
-
-</div>
-
 ---
 
 <a id="guide-zh"></a>
 
-# 📖 SDV-HD2D 安装与使用说明
+## 📖 安装与使用
 
-版本 0.9.0（公测版）。[English version below](#sdv-hd2d-installation-and-usage).
+[环境要求](#requirements-zh) · [安装](#installation-zh) · [使用与设置](#usage-zh) · [问题反馈](#feedback-zh) · [常见问题](#faq-zh) · [已知限制](#limits-zh)
+
+版本 **0.9.0 · 公测版**。
 
 SDV-HD2D 把星露谷物语的画面变成八方旅人式的 HD-2D：游戏原有的像素美术立在有光照的 3D 舞台上，有阴影、发光的灯、泛光、景深、云影和 3D 天气。它只改渲染，不改玩法，也不写存档。
 
-## 1. 🧰 需要什么
+> [!CAUTION]
+> **安装前必读**
+>
+> **SDV-HD2D 目前处于早期公测阶段（0.9.0），尚非稳定版本。可能出现画面异常、性能波动、交互偏移或模组冲突，请在了解以下限制后体验。**
+>
+> - **🖥️ 平台与依赖**：目前仅在 Windows 上开发和测试；请使用星露谷物语 1.6.15、SMAPI ≥ 4.5.2、StardewUI ≥ 0.6.1。Linux、macOS、多人联机及分屏均未测试。
+> - **🧩 兼容性尚未充分验证**：其他光照或着色器模组可能冲突；自定义地图和自行绘制世界图像的模组可能出现细节缺失或错位。建议先在精简模组环境中测试。
+> - **🎮 部分场景仍待验证**：钓鱼、战斗伤害数字、心事件与节日尚未充分实测；少数地形可能异常，透视或旋转镜头下的悬崖边、斜坡可能存在鼠标偏移。
+> - **🛠️ 异常时先切回原版画面**：按 **F8** 关闭 3D 渲染进行对照；鼠标偏移时可按 **F9** 切回正交镜头。仍有问题时，退出游戏并暂时移除本模组。
+> - **🐛 反馈请附复现信息**：前往 [Issues](https://github.com/tiwe0/sdv-hd2d-release/issues)，附上模组版本、地点、游戏时间、截图及 [SMAPI 日志链接](https://smapi.io/log)；地形问题可按 **F11** 查看格子坐标。
+
+<a id="requirements-zh"></a>
+
+### 1. 🧰 需要什么
 
 | 项目 | 版本 | 从哪里下载 | 说明 |
 |---|---|---|---|
@@ -101,7 +92,7 @@ SDV-HD2D 把星露谷物语的画面变成八方旅人式的 HD-2D：游戏原�
 
 <a id="installation-zh"></a>
 
-## 2. 📦 安装
+### 2. 📦 安装
 
 1. **安装 SMAPI**（已经装过就跳过）
    1. 先正常启动一次游戏，再退出。
@@ -132,9 +123,11 @@ Stardew Valley/
 
 **卸载**：删除 `Mods/SDV-HD2D`。存档不受影响。
 
-## 3. 🎮 使用
+<a id="usage-zh"></a>
 
-### 按键
+### 3. 🎮 使用
+
+#### 按键
 
 | 按键 | 作用 |
 |---|---|
@@ -145,7 +138,7 @@ Stardew Valley/
 | F7 | 世界网格（调试用） |
 | F6 | 性能面板：各渲染阶段的 CPU 和 GPU 耗时 |
 
-### 设置页面
+#### 设置页面
 
 按 F10 打开。共五个分区：
 
@@ -162,7 +155,7 @@ Stardew Valley/
 
 改动立即生效。「保存设置」只写入 `Mods/SDV-HD2D/config.json`，不会改动存档；「恢复默认」把整页设置恢复为默认值。界面文字跟随游戏语言（中文、英文）。
 
-### 镜头与鼠标
+#### 镜头与鼠标
 
 - 默认是正交镜头，俯视角 40°、水平旋转 0°：3D 画面与原版画面的位置完全重合。
 - 打开透视镜头、加大视野角度或转动镜头，立体感更强，但能看到的地面更多，开销也更大。
@@ -171,7 +164,7 @@ Stardew Valley/
   - 透视或转动镜头时，在悬崖边和斜坡上可能偏一格；
   - 分屏时鼠标按原版的屏幕布局。
 
-### 性能
+#### 性能
 
 在开发机上（2560×1440 无边框全屏，垂直同步开），全部效果开启时：
 
@@ -186,7 +179,7 @@ Stardew Valley/
 3. 关闭「景深」；
 4. 透视镜头时调小视野角度。
 
-### 设置文件
+#### 设置文件
 
 `Mods/SDV-HD2D/config.json` 在第一次启动时生成。设置页面覆盖了所有画面设置；游戏关闭时也可以直接编辑这个文件。另外几项：
 
@@ -195,7 +188,9 @@ Stardew Valley/
 - `DebugGridEnabled`、`DebugCellsEnabled`、`DebugGroupsEnabled`：调试叠加层，默认关闭。
 - `AutoLoadSaveFolder`：仅开发用，普通启动不读取。
 
-## 4. 🐛 报告问题
+<a id="feedback-zh"></a>
+
+### 4. 🐛 报告问题
 
 - 按 F11 记下出问题的格子坐标 `x,y`，以及地点和游戏时间，最好附截图。
 - 性能问题：按 F6 看各阶段耗时，或在 SMAPI 控制台输入 `hd2d_profile dump`，结果写到 `Mods/SDV-HD2D/.dev/screenshots/frame-profile.json`。
@@ -205,7 +200,9 @@ Stardew Valley/
   - `hd2d_settings reset`：恢复默认设置，`hd2d_settings save` 保存；
   - `hd2d_stage`、`hd2d_cells`：同 F8、F11。
 
-## 5. 💡 常见问题
+<a id="faq-zh"></a>
+
+### 5. 💡 常见问题
 
 - **启动时提示缺少 StardewUI**：按第 1 节安装 StardewUI，并确认 `Mods/StardewUI/manifest.json` 存在（不要多套一层文件夹）。
 - **按 F10 没有设置页面**：StardewUI 没有加载。在 SMAPI 控制台或日志里搜索 `StardewUI` 和 `SDV-HD2D` 的报错。
@@ -213,7 +210,9 @@ Stardew Valley/
 - **鼠标偏了一格**：多半是在透视或转动的镜头下、悬崖边或斜坡上。切回正交镜头（F9，或在设置页关闭「透视镜头」）即可精确。
 - **帧率低**：见「性能」一节。
 
-## 6. 🚧 已知限制（公测）
+<a id="limits-zh"></a>
+
+### 6. 🚧 已知限制（公测）
 
 - 钓鱼小游戏、战斗伤害数字、心事件和节日已经做成 3D，但还没在实际游玩中充分验证，遇到异常请反馈。
 - 夜间农场事件和事件自带的特殊场景保持原版 2D；少数特殊光照情况会在那一帧使用原版光照。
@@ -226,112 +225,41 @@ Stardew Valley/
   - 自己读取光标的模组仍按原版的屏幕布局。
 - 多人联机和分屏未测试。
 
+
 ---
 
-# SDV-HD2D installation and usage
+## 🗺️ 后续计划
 
-Version 0.9.0 (public beta).
+### 优先完善
 
-SDV-HD2D renders Stardew Valley in the Octopath Traveler HD-2D style: the game's own pixel art on a lit 3D stage, with shadows, glowing lamps, bloom, depth of field, cloud shadows and 3D weather. It changes rendering only, never gameplay, and never writes your save.
+- [ ] **更好的配置 UI 交互**：优化设置分组、参数说明与操作反馈，让画面调节更直观，方便预览效果、保存设置和恢复默认值。
+- [ ] **模组兼容框架（重点）**：提供统一的接入接口与适配配置，让其他模组作者能快速接入自定义地图、素材与场景；配套接入文档、示例和调试工具，降低兼容成本。
+- [ ] **人工修复地形**：逐步校正从地图美术推导不准确的地形，完善场景细节。
+- [ ] **不同季节的光照变化**：为春、夏、秋、冬调整阳光色调、强度与环境光，并完善与时段、天气的过渡。
+- [ ] **镜头与交互修正**：改善透视、旋转镜头下悬崖边和斜坡处的鼠标定位与遮挡表现。
+- [ ] **特殊场景验证**：补充钓鱼、战斗伤害数字、心事件与节日的实测，修复画面和交互问题。
 
-## 1. Requirements
+### 后续探索与优化
 
-| What | Version | Where | Notes |
-|---|---|---|---|
-| Stardew Valley (PC) | 1.6.15 | Steam / GOG | required |
-| SMAPI | 4.5.2 or later | [smapi.io](https://smapi.io) | required: the mod loader |
-| StardewUI (by focustense) | 0.6.1 or later | [Nexus Mods #28870](https://www.nexusmods.com/stardewvalley/mods/28870), [GitHub releases](https://github.com/focustense/StardewUI/releases) | required: draws the settings page |
+- [ ] **性能与画质预设**：优化复杂场景和多光源下的开销，探索适合不同设备的画质预设。
+- [ ] **模组兼容性**：逐步验证自定义地图、美术替换及其他渲染模组，整理兼容情况与推荐设置。
+- [ ] **更多运行环境验证**：评估 Linux、macOS、多人联机与分屏的表现，根据测试结果确定适配范围。
+- [ ] **开源准备**：所有功能稳定后公开源码，并整理构建说明与贡献指南。
 
-- Nothing else is needed. Keep SMAPI's own Console Commands and Save Backup.
-- Developed and tested on Windows with SMAPI 4.5.2 and StardewUI 0.6.1. Linux, macOS and community forks of StardewUI (such as StardewUI Continued) are untested.
-- Without StardewUI, SMAPI reports the missing dependency at launch and does not load this mod.
+计划会根据测试反馈调整；探索项的支持范围以实际验证结果为准。
 
-## 2. Install
+## 🙏 致谢
 
-1. **Install SMAPI** (skip if you have it)
-   1. Launch the game once, then quit.
-   2. Download SMAPI from [smapi.io](https://smapi.io), unzip it, run `install on Windows.bat` and follow the prompts.
-   3. On Steam, the installer prints a launch option like `"…\Stardew Valley\StardewModdingAPI.exe" %command%`. Paste the whole line, quotes and `%command%` included, into Steam: Library → right-click Stardew Valley → Properties → General → Launch Options. For GOG, Xbox and others, follow [smapi.io/install](https://smapi.io/install).
-2. **Install StardewUI**: unzip it into the game's `Mods` folder, so that `Mods/StardewUI/manifest.json` exists.
-3. **Install SDV-HD2D**: unzip `SDV-HD2D-0.9.0.zip` into `Mods`, so that `Mods/SDV-HD2D/manifest.json` exists.
-4. **Start the game** from Steam as usual, or run `StardewModdingAPI.exe` in the game folder. The SMAPI console lists `SDV-HD2D 0.9.0 by ivory` and `StardewUI 0.6.1`.
+感谢 **[SDV-Radiance](https://github.com/PHUICMT/SDV-Radiance)**。本项目使用了该模组的部分数据。
 
-**Update**: quit the game and unzip the new version over `Mods`. The zip holds no `config.json`, so your settings stay.
+## 💜 为山谷的下一束光发电
 
-**Uninstall**: delete `Mods/SDV-HD2D`. Saves are not affected.
+如果你喜欢 SDV-HD2D，欢迎通过爱发电支持后续开发与维护。感谢每一位体验、反馈和支持这个项目的玩家！
 
-## 3. Use
+<div align="center">
 
-| Key | |
-|---|---|
-| F10 | open or close the HD2D settings (also the sun tab beside Options in the game menu) |
-| F8 | 3D on or off, to compare with the original game |
-| F9 | switch orthographic / perspective camera |
-| F11 | cell grid: every map cell on screen labelled `x,y`, to report a problem |
-| F7 | world grid (a debugging aid) |
-| F6 | performance overlay: CPU and GPU time per render stage |
+<a href="https://afdian.com/a/sdv-hd2d"><img src="https://img.shields.io/badge/%E2%9A%A1%20%E7%88%B1%E5%8F%91%E7%94%B5-%E4%B8%BA%20SDV--HD2D%20%E5%8F%91%E7%94%B5-946CE6?style=for-the-badge" alt="⚡ 在爱发电支持 SDV-HD2D" /></a>
 
-**Settings page** (F10). Five sections:
-- Sunlight & Shadows;
-- Local & Dynamic Lights;
-- Atmosphere;
-- HDR, Bloom & Depth of Field;
-- Camera & Entities: pitch, yaw, perspective camera, field of view (5–30°, perspective only), entity height correction with its fit-to-pitch button, and fading what hides a character.
+**[afdian.com/a/sdv-hd2d](https://afdian.com/a/sdv-hd2d)**
 
-Changes apply at once. **Save** writes `Mods/SDV-HD2D/config.json` only, never your save; **Reset** restores the page's defaults. The page follows the game's language (English, Chinese).
-
-**Camera and mouse**
-- The default orthographic camera (pitch 40°, yaw 0°) lays the 3D world exactly where the game draws it.
-- A perspective camera, a wider field of view or a turned camera look more three-dimensional, but show more ground and cost more.
-- The mouse targets what you see: clicking the ground, a crop, a chest or a character acts on what is under the cursor in the 3D picture.
-  - On flat ground this is exact under every camera.
-  - A perspective or turned camera can be a tile off at cliff edges and on slopes.
-  - In split screen the mouse keeps the game's own screen layout.
-
-**Performance**, on the development PC (2560×1440 borderless, vsync on, everything enabled):
-- Default camera: 60 FPS everywhere measured; the heaviest spots (the farm, the Saloon at night) take about 13 ms of CPU per frame.
-- Perspective, field of view 12°: 60 FPS as well.
-- Perspective, field of view 30°: the farm about 54 FPS, the Forest in the morning about 58, Town and the Saloon 60.
-
-The game's own VSync option caps the frame rate at the display's refresh rate. If the frame rate drops, try in order:
-1. lower Render scale;
-2. turn off Cast shadows or Point projection shadows;
-3. turn off Depth of field;
-4. with a perspective camera, narrow the field of view.
-
-**config.json** is written at first launch. The settings page covers every visual setting; you can also edit the file while the game is closed. Other fields:
-- `ShowFrameRate`: the FPS counter at the top left, on by default; set `false` to hide it.
-- `StageEnabled`: the 3D stage (as F8).
-- `DebugGridEnabled`, `DebugCellsEnabled`, `DebugGroupsEnabled`: debugging overlays, off by default.
-- `AutoLoadSaveFolder`: development only; a normal launch ignores it.
-
-## 4. Reporting a problem
-
-- Press F11 and note the `x,y` of the cell that looks wrong, with the location and the time of day. A screenshot helps.
-- For performance, press F6, or run `hd2d_profile dump` in the SMAPI console; it writes `Mods/SDV-HD2D/.dev/screenshots/frame-profile.json`.
-- Upload `%appdata%\StardewValley\ErrorLogs\SMAPI-latest.txt` at [smapi.io/log](https://smapi.io/log) and share the link.
-- Console commands:
-  - `hd2d_shot [name]` saves a screenshot to `Mods/SDV-HD2D/.dev/screenshots`;
-  - `hd2d_settings reset` restores the defaults, `hd2d_settings save` keeps them;
-  - `hd2d_stage` and `hd2d_cells` do the same as F8 and F11.
-
-## 5. Troubleshooting
-
-- **SMAPI says StardewUI is missing**: install it (section 1) and check that `Mods/StardewUI/manifest.json` exists, with no extra folder level.
-- **F10 shows no settings page**: StardewUI did not load. Look for `StardewUI` and `SDV-HD2D` errors in the SMAPI console or log.
-- **The picture is back to the original 2D**: F8 may have been pressed; press it again. Overnight farm events (the witch, the fairy, meteorites) and an event's own custom scene keep the game's drawing by design.
-- **The mouse is a tile off**: most likely a perspective or turned camera at a cliff edge or on a slope. The orthographic camera (F9, or Perspective camera off) is exact.
-- **Low frame rate**: see Performance.
-
-## 6. Known limits (beta)
-
-- Fishing, combat damage numbers, heart events and festivals are staged in 3D but not yet verified in real play. Please report anything odd.
-- Overnight farm events and an event's own custom scene keep the game's 2D drawing; a few special lighting cases keep the game's lighting for that frame.
-- A few terrain spots are still read imperfectly from the map art, for example two small waterfalls with no cliff under them, in the Forest and on the Mountain.
-- Other mods:
-  - mods that change art work normally;
-  - mods that change maps get the generic scene, without hand-tuned details;
-  - mods that draw world graphics their own way may show them flat or out of place;
-  - mods with their own lighting or shaders may conflict;
-  - mods that read the cursor themselves still use the game's screen layout.
-- Multiplayer and split screen are untested.
+</div>
